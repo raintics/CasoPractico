@@ -17,3 +17,6 @@ Se agregaron indexaciones para agilizar consultas en columnas que se consideraro
 Se agregaron relaciones entre tablas mediante el uso de llaves externas
 Se crearon tablas adicionales para archivar entradas que no permitian implementar relaciones entre tablas, especificamente entradas que referencian identificadores que no existen en la tabla externa. 
 Despues de crear las tablas externas con las entradas archivadas, se eliminaron de las tablas originales para poder crear las relaciones entre tablas.
+
+
+3. Se creo un dashboard interactivo con la informacion de Postgres, monstrando diferentes queries de manera grafica. Se uso una pagina para cada tabla, mostrando informacion pertinente de cada una.
