@@ -19,4 +19,6 @@ Se crearon tablas adicionales para archivar entradas que no permitian implementa
 Despues de crear las tablas externas con las entradas archivadas, se eliminaron de las tablas originales para poder crear las relaciones entre tablas.
 
 
-3. Se creo un dashboard interactivo con la informacion de Postgres, monstrando diferentes queries de manera grafica. Se uso una pagina para cada tabla, mostrando informacion pertinente de cada una.
+3. Se creo un dashboard interactivo usando streamlit con la informacion de Postgres, mostrando diferentes queries de manera grafica. Se uso una pagina para cada tabla, mostrando informacion pertinente de cada una.
+
+4. Se creo un modelo de ML usando regresion lineal con scikit, usando la informacion de la tabla ventas.
