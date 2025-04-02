@@ -8,6 +8,7 @@ sqlQueries - contiene código de SQL para creación de tablas con modelo relacio
 postSQLData - contiene datos resultantes después de modificación en PostgreSQL
 steamlit_dashboard - contiene código para generación de dashboard interactivo en streamlit, cargando los datos desde PostgreSQL
 modeloML - contiene código para modelo de machine learning con scikit
+API - contiene código para creación de API utilizando FastAPI
 
 
 Metodología
@@ -31,3 +32,5 @@ Después de crear las tablas externas con las entradas archivadas, se eliminaron
 3. Se creó un dashboard interactivo usando streamlit con la información de Postgres, mostrando diferentes queries de manera gráfica. Se usó una página para cada tabla, mostrando información pertinente de cada una.
 
 4. Se creó un modelo de ML usando regresión lineal con scikit, usando la información de la tabla ventas.
+
+5. Se creó un API para la base de datos en PostgreSQL usando FastAPI
